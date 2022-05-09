@@ -4,6 +4,20 @@
 
 #Jupyter Notebooks will be used to visualize data
 
+#TripID - a unique ID created by Louisville Metro
+#StartDate - in YYYY-MM-DD format
+#StartTime - rounded to the nearest 15 minutes in HH:MM format
+#EndDate - in YYYY-MM-DD format
+#EndTime - rounded to the nearest 15 minutes in HH:MM format
+#TripDuration - duration of the trip minutes
+#TripDistance - distance of trip in miles based on company route data
+#StartLatitude - rounded to nearest 3 decimal places
+#StartLongitude - rounded to nearest 3 decimal places
+#EndLatitude - rounded to nearest 3 decimal places
+#EndLongitude - rounded to nearest 3 decimal places
+#DayOfWeek - 1-7 based on date, 1 = Sunday through 7 = Saturday, useful for analysis
+#HourNum - the hour part of the time from 0-24 of the StartTime, useful for analysis
+
 !pip install osm-runner
 
 
@@ -20,3 +34,4 @@ from arcgis.gis import GIS
 
 # Organization Login
 gis = GIS('home')
+
