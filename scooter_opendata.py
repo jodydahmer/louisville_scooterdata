@@ -35,3 +35,12 @@ from arcgis.gis import GIS
 # Organization Login
 gis = GIS('home')
 
+#import Open Data csv file
+
+
+#sort Open Data csv file map to find routes and intersections with most traffic
+
+
+#pull MyMaps csv from Beargrass Thunder
+
+#compare files, map together
